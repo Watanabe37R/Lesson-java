@@ -99,7 +99,7 @@ class Question {
 		int i = (int) d;
 		return i;
 	}
-
+	//問14
 	public void Question14() {
 		int x;
 		//System.out.println(x); //エラー！
