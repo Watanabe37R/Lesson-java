@@ -77,5 +77,42 @@ public class Sample2 {
 				default -> "不正な信号の色です";
 				};
 				System.out.println("現在の信号：" + color + "-" + message);*/
+
+		//while
+		int i = 0;
+		while (i < 3) {
+			System.out.println(i);
+			i++;
+		}
+
+		//do-while
+		i = 7;
+		do {
+			System.out.println(i);
+			i++;
+		} while (i < 3);
+
+		//for
+		for (i = 0; i < 3; i++) {
+			System.out.println(i);
+		}
+
+		//拡張for
+		int[] numbers = { 0, 1, 2 };
+		for (int n : numbers) {
+			System.out.println(n);
+		}
+		//上記をforで書くと
+		for (i = 0; i < numbers.length; i++) {
+			System.out.println(i);
+		}
+
+		//break
+		for (i = 0; i < 5; i++) {
+			if (i == 3) {
+				break;
+			}
+			System.out.println(i);
+		}
 	}
 }
