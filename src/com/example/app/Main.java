@@ -84,6 +84,7 @@ public class Main {
 		PackagePrivate message1 =new PackagePrivate();
 		message1.PackagePrivateMethod();//同PKGのpackage-privateは見える
 		
+		//以下はcom.example.testのもの
 		OtherPackagePrivate message2 =new OtherPackagePrivate();
 		//message2.OrherPackagePrivateMethod(); //別PKGのpackage-privateは不可視
 	}
