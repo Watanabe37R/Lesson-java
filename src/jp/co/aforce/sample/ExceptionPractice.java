@@ -31,7 +31,7 @@ public class ExceptionPractice {
 			if (age < 18) {
 				throw new IllegalArgumentException("18歳未満は登録できません");
 			}
-		} catch (Exception e) {
+		} catch (IllegalArgumentException e) {
 			System.out.println("例外が発生しました：" + e.getMessage());
 		}
 		System.out.println("プログラムは継続します");
